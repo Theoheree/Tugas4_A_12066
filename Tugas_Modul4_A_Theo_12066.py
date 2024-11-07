@@ -48,9 +48,9 @@ if uploaded_file is not None:
     st.dataframe(input_data)
     
 model_paths = {
-    "AGG_model": os.path.join(model_path, 'AGG_model.pkl'),
-    "KMeans_model": os.path.join(model_path, 'KMeans_model.pkl'),
-    "DBSCAN_model": os.path.join(model_path, 'DBSCAN_model.pkl'),
+    "AGG_model": 'AGG_model.pkl'),
+    "KMeans_model": 'KMeans_model.pkl'),
+    "DBSCAN_model": 'DBSCAN_model.pkl'),
 }
 
 models = {}
